@@ -6,9 +6,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1100px)");
   return (
-    <section
+    <section style={{marginTop:'3rem !importat'}}
       id="home"
-      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
+      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10 mt-12"
     >
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
@@ -30,15 +30,15 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              src="./assets/profile.png"
             />
           </div>
           </motion.div>
         ) : (
-          <img
+            <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
+            src="assets/profile.png"
           />
         )}
       </div>
@@ -70,7 +70,7 @@ const Landing = ({ setSelectedPage }) => {
           I'm a passionate front end developer with knack crafting robst & scalable
           web application, With 3 years of hands-on experience, I have honed my skills 
           in web/front-end technologies such as HTML,CSSS,SASS,Javascrcipt,React as well 
-          as a bit of backend knowledge like NodeJS, Express, MongoDB, SQL.
+          as a bit of backend knowledge like NodeJS, Express, MongoDB, SQL.<br/>
           My goal is leverge my expertise to create innovative solutions that drive business 
           growth & deliver exceptional user experiences.
           </p>

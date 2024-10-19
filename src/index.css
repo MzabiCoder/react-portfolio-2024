@@ -24,6 +24,7 @@ body,
 }
 
  
+ 
 .socials {
   display: flex;
   flex-direction: column;
@@ -34,6 +35,30 @@ body,
    font-size: 1rem;
 }
 
+.contac {
+  position: relative;
+  height: 100%;
+}
+
+.contac::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 40;
+}
+
+.contac .image {
+  transition: all ease-in .5s;
+  cursor: pointer;
+}
+.contac:hover .image {
+  object-fit: cover;
+  transform: translateY(1);
+ }
 
 
  

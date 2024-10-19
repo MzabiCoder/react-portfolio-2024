@@ -7,7 +7,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+        <img alt="linkedin-link" width={35} src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" />
       </a>
       {/* <a
         className="hover:opacity-50 transition duration-500"
@@ -23,7 +23,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="facebook-link" src="../assets/facebook.png" />
+        <img alt="facebook-link" width={35} src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-256.png" />
       </a>
       {/* <a
         className="hover:opacity-50 transition duration-500"
