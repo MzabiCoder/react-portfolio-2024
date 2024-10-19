@@ -37,27 +37,36 @@ body,
 
 .contac {
   position: relative;
-  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .contac::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);;
   position: absolute;
   top:0;
   bottom:0;
   left:0;
   right:0;
   z-index: 40;
+  transition: all .5s ease-in;
+  opacity: 0;
 }
 
 .contac .image {
-  transition: all ease-in .5s;
+  transition: all ease-in .4s;
   cursor: pointer;
-}
-.contac:hover .image {
   object-fit: cover;
-  transform: translateY(1);
+  height: 100%;
+  width: 100%;
+}
+.contac:hover::after {
+  opacity: 1;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+ }
+
+ .contac:hover .image{
+   transform: scale(1.1);
  }
 
 
