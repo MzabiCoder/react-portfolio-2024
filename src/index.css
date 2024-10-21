@@ -23,7 +23,9 @@ body,
   font-family: "Montserrat", sans-serif !important;
 }
 
- 
+ #logo {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+ }
  
 .socials {
   display: flex;
