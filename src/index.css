@@ -76,4 +76,9 @@ body,
  }
 
 
- 
+
+ @media only screen and (max-width: 1400px){
+   .brush {
+    /* display: none !important; */
+  }
+}
