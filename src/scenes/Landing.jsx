@@ -25,7 +25,7 @@ const Landing = ({ setSelectedPage }) => {
          >
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-yellow before:z-[-1]"
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:z-[-1]"
           >
             <img
               alt="profile"
@@ -67,12 +67,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p style={{fontSize:'1.2rem'}} className="z-50 mt-10 mb-7 text-center md:text-start">
-          I'm a passionate front end developer with knack crafting robst & scalable
-          web application, With 3 years of hands-on experience, I have honed my skills 
-          in web/front-end technologies such as HTML,CSSS,SASS,Javascrcipt,React as well 
-          as a bit of backend knowledge like NodeJS, Express, MongoDB, SQL.<br/>
-          My goal is leverge my expertise to create innovative solutions that drive business 
-          growth & deliver exceptional user experiences.
+          UI Engineer, Developer, and tech enthusiast-createing <br/>
+          excepteional web and app experiences.
           </p>
         </motion.div>
 

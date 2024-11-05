@@ -77,8 +77,8 @@ body,
 
 
 
- @media only screen and (max-width: 1400px){
-   .brush {
+ @media only screen and (max-width: 00px){
+  #home .brush {
     /* display: none !important; */
   }
 }
