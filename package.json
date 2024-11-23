@@ -15,7 +15,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage":"https://MzabiCoder.github.io/react-portfolio-2024",
+  "homepage1":"https://MzabiCoder.github.io/react-portfolio-2024",
+  "homepage":"https://nabilart.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

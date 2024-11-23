@@ -1,8 +1,8 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap"); */
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
- 
+
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,28 +13,32 @@ body,
 #root,
 .app {
   height: 100%;
-  background-color: #301934	;
+  background-color: #151052;
   @apply text-white;
 }
-#social_media  *, #footer  *, #home  *, #skills  *, nav  * {
+#social_media *,
+#footer *,
+#home *,
+#skills *,
+nav * {
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; */
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important; */
   /* font-family: "Roboto" !important; */
   font-family: "Montserrat", sans-serif !important;
 }
 
- #logo {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
- }
- 
+#logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
 .socials {
   display: flex;
   flex-direction: column;
 }
 
 .socials a {
-   margin-bottom: .5rem;
-   font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 .contac {
@@ -44,24 +48,24 @@ body,
 }
 
 .displayy {
-   position: fixed;
-   left: 27px !important;
+  position: fixed;
+  left: 27px !important;
 }
 
 .contac::after {
   content: "";
   position: absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 40;
-  transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
   opacity: 0;
 }
 
 .contac .image {
-  transition: all ease-in .4s;
+  transition: all ease-in 0.4s;
   cursor: pointer;
   object-fit: cover;
   height: 100%;
@@ -70,19 +74,17 @@ body,
 .contac:hover::after {
   opacity: 1;
   /* background-color: rgba(0, 0, 0, 0.3); */
- }
+}
 
- .contac:hover .image{
-   transform: scale(1.1);
- }
+.contac:hover .image {
+  transform: scale(1.1);
+}
 
- .navbar {
+.navbar {
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
- }
+}
 
-
-
- @media only screen and (max-width: 00px){
+@media only screen and (max-width: 00px) {
   #home .brush {
     /* display: none !important; */
   }

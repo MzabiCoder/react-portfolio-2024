@@ -59,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-6xl z-10 text-center md:text-start">
             Nabil {""}
             <span  
-              className="brush xs:relative xs:text-white before:content-brush
+              className="brush xs:relative xs:text-white
               before:absolute before:-left-[50px] before:-top-[190px] before:z-[-1]"
             >
               Fannane

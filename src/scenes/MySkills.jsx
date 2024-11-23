@@ -64,7 +64,7 @@ const MySkills = () => {
               Web Applications
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-red rounded-bl-full absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
           Work with Product Designers to implement the next generation of websites & apps, 
@@ -90,7 +90,7 @@ const MySkills = () => {
               User interfaces
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-yellow rounded-bl-full absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
           Keep the interface simple, Create consistency and use common UI elements. 
@@ -116,7 +116,7 @@ const MySkills = () => {
               Testing
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute rounded-bl-full right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
           Test each component individually and how they behave when 
