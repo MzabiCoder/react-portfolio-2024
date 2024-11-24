@@ -89,6 +89,7 @@ const Landing = ({ setSelectedPage }) => {
               hover:bg-blue hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
+            id="landing-b"
           >
             Contact Me
           </AnchorLink>

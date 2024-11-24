@@ -13,7 +13,7 @@ body,
 #root,
 .app {
   height: 100%;
-  background-color: #151052;
+  background-color: #090533;
   @apply text-white;
 }
 #social_media *,
@@ -88,4 +88,10 @@ nav * {
   #home .brush {
     /* display: none !important; */
   }
+}
+
+#landing-b {
+  position: relative;
+  transition: all 0.5s ease-in;
+  transform: translateY(20);
 }
