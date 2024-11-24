@@ -67,8 +67,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p style={{fontSize:'1.2rem'}} className="z-50 mt-10 mb-7 text-center md:text-start">
-          UI Engineer, Developer, and tech enthusiast-createing <br/>
-          excepteional web and app experiences.
+          I love to craft beautiful & robust frontend products with
+          great user experience.
           </p>
         </motion.div>
 
