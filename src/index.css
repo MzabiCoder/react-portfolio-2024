@@ -13,7 +13,7 @@ body,
 #root,
 .app {
   height: 100%;
-  background-color: #090533;
+  background-color: #61045f;
   @apply text-white;
 }
 #social_media *,
