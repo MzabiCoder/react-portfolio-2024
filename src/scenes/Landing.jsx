@@ -6,36 +6,36 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1100px)");
   return (
-    <section style={{marginTop:'3rem !importat'}}
+    <section style={{ marginTop: '3rem !importat' }}
       id="home"
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10 mt-12"
     >
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
-           <motion.div
-           initial="hidden"
-           whileInView="visible"
-           viewport={{ once: true, amount: 0.5 }}
-           transition={{ duration: 0.5 }}
-           variants={{
-             hidden: { opacity: 0, x: 50 },
-             visible: { opacity: 1, x: 0 },
-           }}
-         >
-          <div
-            className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:z-[-1]"
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, x: 50 },
+              visible: { opacity: 1, x: 0 },
+            }}
           >
-            <img
-              alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="./assets/profile.png"
-            />
-          </div>
+            <div
+              className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:z-[-1]"
+            >
+              <img
+                alt="profile"
+                className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+                src="./assets/profile.png"
+              />
+            </div>
           </motion.div>
         ) : (
-            <img
+          <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
             src="assets/profile.png"
@@ -58,7 +58,7 @@ const Landing = ({ setSelectedPage }) => {
         >
           <p className="text-6xl z-10 text-center md:text-start">
             Nabil {""}
-            <span  
+            <span
               className="brush xs:relative xs:text-white
               before:absolute before:-left-[50px] before:-top-[190px] before:z-[-1]"
             >
@@ -66,9 +66,9 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p style={{fontSize:'1.2rem'}} className="z-50 mt-10 mb-7 text-center md:text-start">
-          I love to craft beautiful & robust frontend products with
-          great user experience.
+          <p style={{ fontSize: '1.2rem' }} className="z-50 mt-5 mb-7 text-center md:text-start">
+            I love to craft beautiful & robust frontend products with
+            great user experience.
           </p>
         </motion.div>
 

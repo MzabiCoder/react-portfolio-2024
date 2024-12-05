@@ -33,7 +33,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+            <span className="text-yellow">CONTACT</span> ME
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-1/2" />
@@ -55,9 +55,9 @@ const Contact = () => {
           className="basis-1/2 flex justify-center"
         >
           <div className="contac" >
-          <img className=" image" src="https://images.pexels.com/photos/10791679/pexels-photo-10791679.jpeg?auto=compress&cs=tinysrgb&w=800" alt="contact" />
+            <img className=" image" src="https://images.pexels.com/photos/10791679/pexels-photo-10791679.jpeg?auto=compress&cs=tinysrgb&w=800" alt="contact" />
           </div>
-      
+
         </motion.div>
 
         <motion.div

@@ -46,6 +46,9 @@ nav * {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4);
 }
+.change-dot {
+  transform: rotate(45deg) translate(5px, 5px);
+}
 
 .displayy {
   position: fixed;
@@ -81,7 +84,8 @@ nav * {
 }
 
 .navbar {
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background: linear-gradient(0.25turn, #044966, #64b526, #583006);
+  /* background-color:hsla(339, 90%, 27%, 0.5); */
 }
 
 @media only screen and (max-width: 00px) {
@@ -95,3 +99,4 @@ nav * {
   transition: all 0.5s ease-in;
   transform: translateY(20);
 }
+ 
