@@ -24,8 +24,8 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        {/* <h4 className="text-4xl font-semibold" id="logo" >NF</h4> */}
-        <img src="./assets/profile.png" className="rounded-full" />
+        {/* <h4 classNam  e="text-4xl font-semibold" id="logo" >NF</h4> */}
+        <img src="./assets/profile.png" id="imag-profile" className="rounded-full" />
         {/* DESKTOP NAV */}
         {isDesktop ? (
           <div className="flex justify-between gap-16 font-opensans text-1xl font-semibold">

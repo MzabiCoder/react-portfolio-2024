@@ -41,6 +41,12 @@ nav * {
   font-size: 1rem;
 }
 
+#imag-profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
 .contac {
   position: relative;
   overflow: hidden;
