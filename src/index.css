@@ -22,9 +22,9 @@ body,
 #skills *,
 nav * {
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; */
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
   /* font-family: "Roboto" !important; */
-  font-family: "Montserrat", sans-serif !important;
+  /* font-family: "Montserrat", sans-serif !important; */
 }
 
 #logo {
