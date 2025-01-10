@@ -29,7 +29,7 @@ const Landing = ({ setSelectedPage }) => {
             >
               <img
                 alt="profile"
-                className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[500px] md:max-w-[500px]"
+                className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
                 src="./assets/profile.png"
               />
             </div>
@@ -38,7 +38,7 @@ const Landing = ({ setSelectedPage }) => {
           <img
             alt="profile"
             id="image"
-            className="z-10 w-full max-w-[500px] md:max-w-[600px]"
+            className="z-10 w-full max-w-[400px] md:max-w-[400px]"
             src="assets/profile.png"
           />
         )}
@@ -57,7 +57,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl z-10 text-center md:text-start">
+          <p className="text-6xl xs:text-4xl z-10 text-center md:text-start">
             Nabil {""}
             <span
               className="brush xs:relative xs:text-white
