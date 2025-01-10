@@ -57,7 +57,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl xs:text-4xl z-10 text-center md:text-start">
+          <p className="text-6xl z-10 text-center md:text-start">
             Nabil {""}
             <span
               className="brush xs:relative xs:text-white
